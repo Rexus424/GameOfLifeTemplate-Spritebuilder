@@ -82,7 +82,7 @@ static const int GRID_COLUMNS = 10;
     int column = touchPosition.x/_cellWidth;
     return _gridArray[row][column];
 }
-
+/*
 -(void)evolveStep{
     //update each Creature's neighbor count
     [self countNeighbors];
@@ -159,6 +159,6 @@ static const int GRID_COLUMNS = 10;
         isIndexValid = NO;
     }
     return isIndexValid;
-}
+}*/
 
 @end
