@@ -140,7 +140,7 @@ static const int GRID_COLUMNS = 10;
     // note that NSArray has a method 'count' that will return the number of elements in the array
     for (int i = 0; i < [_gridArray count]; i++)
     {
-        for(int j = 0; j < [_gridArray[i] count]; i++){
+        for(int j = 0; j < [_gridArray[i] count]; j++){
             Creature *currentCreature = _gridArray[i][j];
             if(currentCreature.livingNeighbors == 3){
                 currentCreature.isAlive = true;
