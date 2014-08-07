@@ -124,10 +124,6 @@
 			isa = PBXGroup;
 			children = (
 				B7378940180761A80076A88C /* cocos2d-ios.xcodeproj */,
-				2DE7D429198DDDDE0085A4FB /* Grid.h */,
-				2DE7D42A198DDDDE0085A4FB /* Grid.m */,
-				2DE7D42F198DDE1A0085A4FB /* Creature.h */,
-				2DE7D430198DDE1A0085A4FB /* Creature.m */,
 			);
 			name = libs;
 			sourceTree = "<group>";
@@ -139,6 +135,10 @@
 				B737893E1807617C0076A88C /* AppDelegate.m */,
 				B7378992180767190076A88C /* MainScene.h */,
 				B7378993180767190076A88C /* MainScene.m */,
+				2DE7D429198DDDDE0085A4FB /* Grid.h */,
+				2DE7D42A198DDDDE0085A4FB /* Grid.m */,
+				2DE7D42F198DDE1A0085A4FB /* Creature.h */,
+				2DE7D430198DDE1A0085A4FB /* Creature.m */,
 			);
 			name = Source;
 			sourceTree = "<group>";
